@@ -9,15 +9,13 @@ Android part based on a blog post from [@pieterderycke](https://pieterderycke.wo
 ## Installation
 
 ``` bash
-cordova plugin add https://github.com/MatiMenich/cordova-plugin-nativeClickSound
+cordova plugin add https://github.com/gevyaniv/cordova-plugin-nativeClickSound.git
 ```
 
 ## Usage
 
 ```js
-var clickyClasses = ['sound-click', 'button']; 
-
-nativeclick.watch(clickyClasses);
+nativeclick.trigger();
 ```
 
 ## License
